@@ -12,13 +12,14 @@ In order to run it, we provide you with a jupyter-lab that you shall install fol
 
 The code you'll find is a naive implementation with number of shortcomings preventing 
 the collaboration of multiple MLE and Data Scientists:
-- It is not possible to introduce easily new features mainly because the code is just a bunch of functions in one file.
+- It is not possible to introduce easily new functionalities mainly because the code is just a bunch of functions in one onotebook.
 - The code can not be scaled to other datasets or variations of the tasks.
 - There is no evaluation of the performances.
-- There is no testing
+- There is no unit testing
 
-Additionaly, if you think of any features that would be an interesting, feel free to add them.  
-For example, what about looking at similar users to find a recommendation for our targeted user ?
+Your main task is to refactor the code from the notebook to python files. The goal of this refactoring is to solve the shortcomings listed above. Optionally, if you have the time and some ideas of features to introduce, feel free to do so.
+
+The projects will be evaluated on the quality of the source code produced. The closer to "clean code", the better.
 
 ## Answer modalities
 
